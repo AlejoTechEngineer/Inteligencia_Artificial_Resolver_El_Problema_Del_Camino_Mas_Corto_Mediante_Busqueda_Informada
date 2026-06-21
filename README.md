@@ -1,6 +1,13 @@
+<div align="center">
+
 # 📌 Inteligencia Artificial - Resolver el Problema del Camino Más Corto Mediante Búsqueda Informada  
 
-## 📖 Descripción  
+## 📖 Descripción
+
+</div>
+
+---
+
 Este proyecto aplica algoritmos de búsqueda informada para encontrar el camino más corto en grafos representando redes de ciudades.
 
 ## 🛠️ Funcionalidades  
@@ -28,3 +35,12 @@ Este proyecto aplica algoritmos de búsqueda informada para encontrar el camino 
 
 ## 📌 Autor  
 👨‍💻 **Alejandro De Mendoza**
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
