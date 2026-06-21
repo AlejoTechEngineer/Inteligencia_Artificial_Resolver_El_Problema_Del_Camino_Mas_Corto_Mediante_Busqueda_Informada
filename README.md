@@ -16,6 +16,21 @@ Este proyecto aplica algoritmos de búsqueda informada para encontrar el camino 
 - Cálculo de heurísticas basadas en distancia euclidiana.  
 - Comparación de rendimiento entre diferentes métodos de búsqueda.  
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[main.py - Punto de entrada] --> B[AlgoritmoAAsterisco - A*]
+    A --> C[AlgoritmoVoraz - Greedy Best-First]
+    B --> D[Grafo de Ciudades - NetworkX]
+    C --> D
+    D --> E[Heuristica Euclidiana]
+    B --> F[Camino Optimo Encontrado]
+    C --> F
+    F --> G[Visualizacion - Matplotlib]
+    G --> H[Comparacion de Rendimiento A* vs Voraz]
+```
+
 ## 🚀 Tecnologías utilizadas  
 - Python  
 - NetworkX  
@@ -37,21 +52,6 @@ Este proyecto aplica algoritmos de búsqueda informada para encontrar el camino 
 👨‍💻 **Alejandro De Mendoza**
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[main.py - Punto de entrada] --> B[AlgoritmoAAsterisco - A*]
-    A --> C[AlgoritmoVoraz - Greedy Best-First]
-    B --> D[Grafo de Ciudades - NetworkX]
-    C --> D
-    D --> E[Heuristica Euclidiana]
-    B --> F[Camino Optimo Encontrado]
-    C --> F
-    F --> G[Visualizacion - Matplotlib]
-    G --> H[Comparacion de Rendimiento A* vs Voraz]
-```
 
 ## Autor
 
