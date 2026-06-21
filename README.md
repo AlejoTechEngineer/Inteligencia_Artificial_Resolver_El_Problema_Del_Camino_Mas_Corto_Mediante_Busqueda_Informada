@@ -38,6 +38,21 @@ Este proyecto aplica algoritmos de búsqueda informada para encontrar el camino 
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[main.py - Punto de entrada] --> B[AlgoritmoAAsterisco - A*]
+    A --> C[AlgoritmoVoraz - Greedy Best-First]
+    B --> D[Grafo de Ciudades - NetworkX]
+    C --> D
+    D --> E[Heuristica Euclidiana]
+    B --> F[Camino Optimo Encontrado]
+    C --> F
+    F --> G[Visualizacion - Matplotlib]
+    G --> H[Comparacion de Rendimiento A* vs Voraz]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
